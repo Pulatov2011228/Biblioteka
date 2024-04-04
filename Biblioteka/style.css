@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.menu h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.search {
+  border-bottom: 1px solid black;
+}
+.search input {
+  border: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  justify-content: space-around;
+}
+main button {
+  background-color: #E16A00;
+  border: none;
+  padding: 10px;
+  color: #fff;
+}
+main .text h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.SaleBook {
+  width: 1272px;
+  height: 517px;
+  margin-left: 200px;
+}
+.SaleBook .header {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.SaleBook .header .H3 h3 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.SaleBook .sale .main {
+  display: flex;
+  gap: 60px;
+  margin-left: 80px;
+}
+.SaleBook .sale .main .button {
+  border: none;
+  background-color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.SaleBook .sale .main .books1 {
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+  width: 184.32px;
+  align-items: center;
+  border-radius: 3px;
+}
+.SaleBook .sale .main .books1 img {
+  width: 127.69px;
+}
+.SaleBook .sale .main .books1 .live {
+  width: 24.21px;
+  height: 21.55px;
+}
+.SaleBook .sale .main .books1 .price {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+}
+.SaleBook .sale .main .books1 span {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+.SaleBook .sale .main .books1 button {
+  color: #fff;
+  background-color: #E16A00;
+  border: none;
+  padding: 5%;
+  border-radius: 3px;
+}
+
+.SoldBook {
+  width: 1272px;
+  height: 517px;
+  margin-left: 200px;
+}
+.SoldBook .header2 {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.SoldBook .header2 h4 {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 900;
+}
+.SoldBook .sale .main {
+  display: flex;
+  gap: 60px;
+  margin-left: 80px;
+}
+.SoldBook .sale .main .button {
+  border: none;
+  background-color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.SoldBook .sale .main .books1 {
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+  width: 184.32px;
+  align-items: center;
+}
+.SoldBook .sale .main .books1 img {
+  width: 127.69px;
+}
+.SoldBook .sale .main .books1 .live {
+  width: 24.21px;
+  height: 21.55px;
+}
+.SoldBook .sale .main .books1 .price {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+}
+.SoldBook .sale .main .books1 span {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+.SoldBook .sale .main .books1 button {
+  color: #fff;
+  background-color: #E16A00;
+  border: none;
+  padding: 5%;
+  border-radius: 3px;
+}
+
+.Catalog {
+  padding: 100px;
+}
+.Catalog .head {
+  text-align: center;
+}
+.Catalog .head h5 {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 900;
+}
+.Catalog .body {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  width: 1500px;
+}
+.Catalog .body .dives {
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
+  width: 300px;
+  height: 90px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Catalog .body .dives p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(36, 20, 0);
+}
+
+.magaz .text {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+}
+.magaz .texter {
+  display: flex;
+  justify-content: space-around;
+  width: 270px;
+  height: 98px;
+}
+.magaz .texter p span {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 900;
+}/*# sourceMappingURL=style.css.map */
